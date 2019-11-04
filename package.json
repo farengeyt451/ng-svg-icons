@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "generate:svg-sprite": "svg2sprite ./src/assets/icons-main-sprite ./src/assets/sprites/svg-main-sprite.svg --stripEmptyTags --stripAttrs fill --stripAttrs stroke --stripAttrs id"
   },
   "private": true,
   "dependencies": {
@@ -19,8 +20,13 @@
     "@angular/platform-browser": "~8.2.9",
     "@angular/platform-browser-dynamic": "~8.2.9",
     "@angular/router": "~8.2.9",
+    "@types/svg4everybody": "^2.1.1",
+    "classlist.js": "^1.1.20150312",
     "rxjs": "~6.4.0",
+    "svg2sprite-cli": "^2.0.1",
+    "svg4everybody": "^2.1.9",
     "tslib": "^1.10.0",
+    "web-animations-js": "^2.3.2",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
