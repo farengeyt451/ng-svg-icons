@@ -63,4 +63,4 @@ import 'zone.js/dist/zone'; // Included with Angular CLI.
 
 // svg4everybody https://github.com/jonathantneal/svg4everybody
 import * as svg4everybody from 'svg4everybody';
-svg4everybody({ polyfill: true });
+svg4everybody();
